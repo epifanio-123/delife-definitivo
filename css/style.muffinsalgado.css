@@ -1,0 +1,49 @@
+body {
+    background-color: #4b2a1dc0;
+    color: #4b2a1d;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.receita {
+    background-color:#4b2a1d;
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.foto {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.nome {
+    background-color: #f3ead9;
+    color: #4b2a1d;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    margin: 0;
+}
+
+.conteudo {
+    background-color: #4b2a1d;
+    color: #f3ead9;
+    padding: 25px;
+    min-height: 550px;
+}
+
+.conteudo h2 {
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+
+.conteudo p {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 5px 0 20px;
+}

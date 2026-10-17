@@ -1,0 +1,147 @@
+body {
+    background-color: #f3ead9;
+    color: #8b6252;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.imagem {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.escuro {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.068);
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 520px;
+    z-index: 2;
+}
+
+.inicio {
+    text-align: center;
+    padding: 40px;
+}
+
+.inicio h2 {
+    color: #17452f;
+    font-size: 32px;
+}
+
+.inicio p {
+    font-size: 18px;
+}
+
+.receitas {
+    text-align: center;
+    padding: 40px;
+}
+
+.receitas h2 {
+    color: #17452f;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: #4b2a1d;
+    color: #f3ead9;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botoes a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.botao-facil {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao-facil img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.botao-medio {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao-medio img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.botao-dificil {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao-dificil img {
+    width: 160px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.botao-sobremesa {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botao-sobremesa img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.final {
+    background-color: #17452f;
+    color: #f3ead9;
+    text-align: center;
+    padding: 20px;
+}
