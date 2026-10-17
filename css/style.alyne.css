@@ -145,3 +145,62 @@ button {
     text-align: center;
     padding: 20px;
 }
+
+/* Responsivo */
+
+.botoes {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .banner,
+    .imagem,
+    .escuro {
+        height: 220px;
+    }
+
+    .logo {
+        width: 75%;
+        max-width: 400px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .inicio,
+    .receitas {
+        padding: 24px 16px;
+    }
+
+    .inicio h2 {
+        font-size: 24px;
+    }
+
+    .inicio p {
+        font-size: 16px;
+    }
+
+    .botoes {
+        gap: 12px;
+    }
+
+    .botao-facil,
+    .botao-medio,
+    .botao-dificil,
+    .botao-sobremesa {
+        width: calc(50% - 6px);
+        margin: 0;
+        padding: 12px;
+        border-radius: 24px;
+        font-size: 1.1rem;
+        align-items: center;
+    }
+
+    .botao-facil img,
+    .botao-medio img,
+    .botao-dificil img,
+    .botao-sobremesa img {
+        width: 100%;
+        margin: 0 0 10px;
+    }
+}

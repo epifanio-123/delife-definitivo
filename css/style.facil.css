@@ -145,3 +145,54 @@ hr {
     padding: 20px;
     margin-top: auto;
 }
+
+/* Responsivo */
+
+.receitas {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        margin: 20px 16px;
+    }
+
+    .titulo h1 {
+        font-size: 32px;
+    }
+
+    .receitas {
+        gap: 16px;
+        padding: 30px 16px;
+    }
+
+    hr {
+        width: auto;
+        margin: 0 16px;
+    }
+
+    .informacoes {
+        flex-direction: column;
+        width: auto;
+        margin: 0 16px;
+    }
+
+    .preparo,
+    .dicas {
+        width: 100%;
+        padding: 0;
+    }
+
+    .dicas {
+        border-left: none;
+        border-top: 1px solid #8b806d;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .receita {
+        width: calc(50% - 8px);
+        height: auto;
+    }
+}

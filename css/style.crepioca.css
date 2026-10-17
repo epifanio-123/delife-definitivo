@@ -46,3 +46,25 @@ body {
     line-height: 1.5;
     margin: 5px 0 20px;
 }
+
+/* Responsivo */
+
+@media (max-width: 600px) {
+    .receita {
+        width: auto;
+        margin: 16px;
+    }
+
+    .foto {
+        height: 200px;
+    }
+
+    .nome {
+        font-size: 24px;
+    }
+
+    .conteudo {
+        padding: 18px;
+        min-height: auto;
+    }
+}
